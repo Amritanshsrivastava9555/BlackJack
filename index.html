@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BlackJack</title>
+        <link rel="stylesheet" href="uha.css">
+    </head>
+    <body> 
+        <h1 class="top">BlackJack </h1>
+        <div class="bet-box">
+        <p id="bet">Bet : 10 $</p>
+        <button id="inc" onclick="inc()">+</button>
+        <button id="dec" onclick="dec()">-</button>
+        </div>
+        <p id="messageEl">Want to play a round? </p>
+        <h4 id="cards-el">Cards : </h4>
+        <h4 id="sum-el">Sum : </h4>
+        <button id="start" class="buttoni" onclick="startt()">START</button> 
+        <button id="new-card" class="buttoni" onclick="neww()">NEW CARDS</button>
+        <p id="credits">Balance : $ </p>
+        <button id="new-game" class="buttoni" onclick="newGame()">NEW GAME</button>
+        <div class="note">
+            Note: In this game, if Total(sum) of the cards that you receive is 21 , you win the game. If the sum is less than 21,
+            you can draw a new card. And if the sum is more than 21, you lose.
+            In this game the default bet is of 10$ ,you can increase and decrease your bet amount. If you lose ,
+            you lose your bet amount & if you win you get double the money.
+        </div>
+    
+        <script src="uh.js"></script> 
+    </body>
+</html>

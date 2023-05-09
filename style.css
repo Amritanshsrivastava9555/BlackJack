@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background: linear-gradient(to right,#01aaff,#01ff6b);
+    font-size: 40px;
+}
+.top{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#messageEl{
+    font-style: italic;
+}
+.buttoni{
+    border-radius: 30px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 45px;
+    font-size: 30px;
+    background-color: #5eff00;
+    background-color: #7b7f84;
+}
+
+.note{
+    margin-top: 37%;
+    width: 70%;
+    background-color: #656565;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.bet-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#inc{
+    margin: 5px;
+    margin-left: 15px;
+    font-size: 22px;
+    background-color: #4d5258;
+}
+
+#dec{
+    margin: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 22px;
+    background-color: #4d5258;
+}
